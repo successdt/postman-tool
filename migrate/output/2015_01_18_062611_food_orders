@@ -1,0 +1,38 @@
+
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+
+class CreateFoodordersTable extends Migration {
+
+	public function up()
+	{
+		Schema::create('food_orders', function(Blueprint $table) {
+			
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		$table->increments('id');
+		
+		});
+	}
+
+	public function down()
+	{
+		Schema::drop('food_orders');
+	}
+}

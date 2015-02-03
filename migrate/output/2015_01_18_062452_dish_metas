@@ -1,0 +1,24 @@
+
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+
+class CreateDishmetasTable extends Migration {
+
+	public function up()
+	{
+		Schema::create('dish_metas', function(Blueprint $table) {
+			$table->increments('id');
+$table->increments('id');
+$table->increments('id');
+$table->increments('id');
+
+		});
+	}
+
+	public function down()
+	{
+		Schema::drop('dish_metas');
+	}
+}
