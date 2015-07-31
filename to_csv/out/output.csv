@@ -1,0 +1,278 @@
+Keeper,ServiceOrder,"List Customer Service Orders",GET,/housekeeper/service-orders
+Keeper,Services,"List of Services group by Categories",GET,/housekeeper/services/
+Keeper,Services,"View Service by ID",GET,/housekeeper/services/199
+Keeper,"Taxes, Discounts","List current active taxes",GET,/housekeeper/taxes
+Keeper,ServiceOrder,"View Single Service Order",GET,/housekeeper/service-orders/21
+Keeper,Services,"List of Services by Category ID",GET,/housekeeper/services/category/6
+Keeper,ServiceOrder,"Create Service Order",POST,/housekeeper/service-orders
+Keeper,Settings,"Get hotel settings",GET,/keeper/hotel-settings
+Keeper,ServiceOrder,"Update Service Order",POST,/housekeeper/service-orders/21
+Keeper,"Taxes, Discounts","List current available discounts",GET,/housekeeper/discounts
+Keeper,Services,"List Service Categories",GET,/housekeeper/service-categories
+Keeper,Rooms,"Get list rooms",GET,/housekeeper/rooms
+Keeper,Authentication,Login,POST,/housekeeper/login
+Admin,Foods,"Create Food Category",POST,/admin/new-food-categories
+Admin,Services,"Delete Service",DELETE,/admin/services/205
+Admin,Discounts,"Update discount",POST,/admin/discounts/4
+Admin,,"Create Food Category",POST,/admin/food-categories
+Admin,Tag,"Delete a tag",DELETE,/admin/tags/1
+Admin,FoodSet,"Create Food Set",POST,/admin/food-sets
+Admin,Tag,"View single tag",GET,/admin/tags/1
+Admin,Rooms,"Create & Update Hotel Preferences",POST,/admin/room-preferences/
+Admin,Rooms,"Get Room Preferences",GET,/admin/room-preferences/2
+Admin,Warehouses,"View a warehouses",GET,/admin/warehouses/1
+Admin,,Login,POST,/admin/login
+Admin,Roles,View,GET,/admin/roles/8
+Admin,Users,"Renew token",POST,/admin/refresh
+Admin,Dashboard,Today,GET,/admin/dashboard/today
+Admin,Taxes,"Update tax",POST,/admin/taxes/8
+Admin,FoodIngredient,"View a transaction",GET,/admin/food-ingredient-transactions/32
+Admin,v2FoodOrder,"Order detail",GET,/v2/admin/food-orders/186
+Admin,Services,"List of Services group by Categories",GET,/admin/services/
+Admin,Services,"Create Service Category",POST,/admin/service-categories
+Admin,Rooms,"Delete many rooms",DELETE,/admin/rooms/multi
+Admin,Rooms,"Get All Room Preferences",GET,/admin/room-preferences
+Admin,Hotels,"List hotels",GET,/admin/hotels
+Admin,v2FoodOrder,"Export list orders",GET,/v2/admin/food-orders/export
+Admin,Users,"Update Your Profile",POST,/users/update
+Admin,FoodSet,"Delete Food Set",DELETE,/admin/food-sets/14
+Admin,FoodOption,"Get all food option template tags",GET,/admin/food-option-tags/
+Admin,Rooms,"List of rooms grouped by Tags",GET,/admin/rooms/tags
+Admin,FoodIngredient,"Update Food Ingredient",POST,/admin/food-ingredients/2
+Admin,Media,"Folder Contents",GET,/admin/media-manager/folder-contents
+Admin,Rooms,"Update a room",POST,/admin/rooms/222
+Admin,,"List Food Categories",GET,/admin/food-categories
+Admin,Dashboard,"Food Order Statistic",GET,/admin/dashboard/orders
+Admin,Services,"Delete Service Category",DELETE,/admin/service-categories/6
+Admin,Foods,"Get all foods by tags",GET,/admin/food-tags
+Admin,Users,"Update User",POST,/admin/users/96
+Admin,,"View Food by ID",GET,/admin/new-foods/750
+Admin,FoodSet,"Update Food Set Category",PUT,/admin/food-set-categories/1
+Admin,Guest,"Update guest",POST,/admin/guests/13
+Admin,Rooms,"Delete a room",DELETE,/admin/rooms/221
+Admin,Rooms,"List of room tags",GET,/admin/tags
+Admin,Taxes,"Delete tax",DELETE,/admin/taxes/50
+Admin,Hotels,"Create & Update Introduction",POST,/admin/hotels/introductions
+Admin,,"Update warehouse",PUT,/admin/warehouses/1
+Admin,FoodSet,"List of Food Sets group by Categories",GET,/admin/food-sets/
+Admin,Rooms,"View a room",GET,/admin/rooms/222
+Admin,,"Order categories",POST,/admin/food-categories/order
+Admin,Settings,"Update hotel settings",POST,/admin/hotel-settings
+Admin,FoodSet,"Update Food Set",PUT,/admin/food-sets/25
+Admin,Discounts,"View single Discount",GET,/admin/discounts/4
+Admin,v2FoodOrder,"List orders",GET,/v2/admin/food-orders
+Admin,Media,"Delete file",DELETE,/admin/media-manager/2
+Admin,Tag,"Create a tags",POST,/admin/tags
+Admin,Report,"Sale report",GET,/admin/reports/sale-report
+Admin,FoodIngredient,"View Single Food  Ingredient",GET,/admin/food-ingredients/2
+Admin,FoodSet,"Delete Food Set Category",DELETE,/admin/food-set-categories/4
+Admin,Services,"Update Service Category",POST,/admin/service-categories/7
+Admin,Roles,Delete,DELETE,/admin/roles/2
+Admin,Users,Logout,POST,/admin/logout
+Admin,Media,"Delete directory",DELETE,/admin/media-manager/2
+Admin,Discounts,"Delete discount",DELETE,/admin/discounts/4
+Admin,Services,"List of Services by Category ID",GET,/admin/services/category/7
+Admin,FoodIngredient,"List Transactions",GET,/admin/food-ingredient-transactions
+Admin,Users,"Get all groups",GET,/admin/users/groups
+Admin,,"Update Food Category",POST,/admin/food-categories/100
+Admin,Hotels,"Delete Introduction",POST,/admin/hotels/delete-introductions
+Admin,Users,"List of Users",POST,/admin/tags
+Admin,Discounts,"List discounts",GET,/admin/discounts
+Admin,,"Create warehouse",POST,/admin/warehouses
+Admin,,"Get sorting list",GET,/admin/order
+Admin,Rooms,"Create Rooms",POST,/admin/rooms
+Admin,,"Create Food",POST,/admin/new-foods
+Admin,FoodSet,"View Food Set by ID",GET,/admin/food-sets/6
+Admin,Foods,"Update Food Category",POST,/admin/new-food-categories/135
+Admin,Foods,"Delete Food Category",DELETE,/admin/new-food-categories/110
+Admin,,"Update sorting list",POST,/admin/order
+Admin,v2Dashboard,Today,GET,/v2/admin/dashboard/today
+Admin,FoodIngredient,"Create a transaction",POST,/admin/food-ingredient-transactions
+Admin,Foods,"Delete Food",DELETE,/admin/new-foods/754
+Admin,FoodSet,"List of Food Sets by Category ID",GET,/admin/food-sets/category/1
+Admin,Hotels,"Update gallery",POST,/admin/hotels/gallery
+Admin,Rooms,"Set default table",PUT,/admin/rooms/63/default/0
+Admin,Media,"Create Folder",POST,/admin/media-manager/create-folder
+Admin,Foods,"Duplicate a food",POST,/admin/new-foods/750/duplicate
+Admin,,"List of Foods group by Categories",GET,/admin/new-foods/
+Admin,Rooms,"List of rooms",GET,/admin/rooms
+Admin,Guest,"Get list guests",GET,/admin/guests
+Admin,Rooms,"List of rooms by Tag ID",GET,/admin/rooms/tags/15
+Admin,Tag,"List of tags",GET,/admin/tags
+Admin,Guest,"Create guest",POST,/admin/guests
+Admin,Roles,List,GET,/admin/roles
+Admin,Services,"Update Service",POST,/admin/services/205
+Admin,Services,"Create Service",POST,/admin/services
+Admin,FoodIngredient,"Update a transaction",PUT,/admin/food-ingredient-transactions/20
+Admin,Devices,"Get List of Devices",GET,/admin/devices/list
+Admin,Taxes,"Store tax",POST,/admin/taxes
+Admin,Taxes,"List taxes",GET,/admin/taxes
+Admin,FoodSet,"Create Food Set Category",POST,/admin/food-set-categories
+Admin,Foods,"Update Food",POST,/admin/new-foods/750
+Admin,Devices,"Allocate Device to Room",POST,/admin/devices/allocate
+Admin,FoodIngredient,"Cancel a transaction",DELETE,/admin/food-ingredient-transactions/6
+Admin,FoodOrder,"List orders",GET,/v2/admin/food-orders
+Admin,Foods,"List of Foods by Category ID",GET,/admin/new-foods/category/100
+Admin,Users,"Delete a User",DELETE,/admin/users/96
+Admin,v2Dashboard,"Food Order Statistic",GET,/v2/admin/dashboard/orders
+Admin,Dashboard,"Customer Statistic",GET,/admin/dashboard/customers
+Admin,Services,"List Service Categories",GET,/admin/service-categories
+Admin,,"List Food Categories",GET,/admin/new-food-categories
+Admin,Warehouses,"Delete a warehouses",DELETE,/admin/warehouses/2
+Admin,Settings,"Get hotel settings",GET,/admin/hotel-settings
+Admin,Guest,"View Guests by room_id",GET,/admin/rooms/63/guests
+Admin,,Create,POST,/admin/roles
+Admin,Dashboard,"Bill Statistic",GET,/admin/dashboard/bills
+Admin,Guest,"Delete Guest",DELETE,/admin/guests/14
+Admin,Users,"Create User",POST,/admin/users
+Admin,Services,"View Service by ID",GET,/admin/services/200
+Admin,,Update,PUT,/admin/roles/1
+Admin,Media,"Upload File",POST,/admin/media-manager
+Admin,FoodIngredient,"Create Food Ingredient",POST,/admin/food-ingredients
+Admin,Tag,"Update a tag",POST,/admin/tags/1
+Admin,Foods,"View Food Ingredients by Food ID",GET,/admin/new-foods/750/ingredients
+Admin,Rooms,"Delete a Room Preferences",DELETE,/admin/room-preferences/2
+Admin,FoodIngredient,"Delete Food Ingredient",DELETE,/admin/food-ingredients/4
+Admin,FoodIngredient,"Get all Food  Ingredients",GET,/admin/food-ingredients
+Admin,,"List Food Set Categories",GET,/admin/food-set-categories
+Admin,Hotels,"Update Hotel",POST,/admin/hotels/8
+Admin,Warehouses,"List warehouses",GET,/admin/warehouses
+Admin,Hotels,Detail,GET,/admin/hotels/8
+Admin,Taxes,"View single Tax",GET,/admin/taxes/50
+Admin,Discounts,"Store Discount",POST,/admin/discounts
+Master,User,"Create hotel admin",POST,/master/users
+Master,Hotel,"Create hotel",POST,/master/hotels
+Cashier,Payments,"List payments available",GET,/cashier/payments
+Cashier,Foods,"View Food by ID",GET,/cashier/new-foods/750
+Cashier,FoodOrder,"Cancel a order",PUT,/cashier/food-order-bills/22/cancel
+Cashier,FoodSet,"View Food Set by ID",GET,/cashier/food-sets/6
+Cashier,Rooms,"Get list un-taken rooms",GET,/cashier/rooms/untaken
+Cashier,FoodSet,"List Food Set Categories",GET,/cashier/food-set-categories
+Cashier,V2Payments,"Store payment",POST,/v2/cashier/payments
+Cashier,Foods,"List Food Categories",GET,/cashier/new-food-categories
+Cashier,Foods,"List Food Sub Categories of Category",GET,/cashier/new-food-categories/99/subcategories
+Cashier,Rooms,"List of rooms grouped by Tags",GET,/cashier/rooms/tags
+Cashier,,"Cash report",GET,/cashier/devices/cash-report
+Cashier,Foods,"List of Foods in Category Tree",GET,/cashier/new-foods/category/99/tree
+Cashier,Foods,"List of Foods by Category ID",GET,/cashier/new-foods/category/99
+Cashier,V2Payments,"List payments available",GET,/v2/cashier/payments
+Cashier,"Taxes, Discounts","List current available discounts",GET,/cashier/discounts
+Cashier,Payments,"Store payment",POST,/cashier/payments
+Cashier,Devices,"Close cash",POST,/cashier/devices/close-cash
+Cashier,FoodOrder,"Create Order",POST,/cashier/food-order-bills
+Cashier,FoodOrder,"Update Order",POST,/cashier/food-order-bills/131
+Cashier,Foods,"List of Foods group by Categories",GET,/cashier/new-foods
+Cashier,FoodSet,"List of Food Sets by Category ID",GET,/cashier/food-sets/category/2
+Cashier,"Taxes, Discounts","List current active taxes",GET,/cashier/taxes
+Cashier,Users,Logout,POST,/cashier/logout
+Cashier,Users,"Renew token",POST,/cashier/refresh
+Cashier,Devices,"Balance Histories",GET,/cashier/devices/histories
+Cashier,Foods,"List of Foods by Category ID and Subcategories",GET,/cashier/new-foods/category/99/subcategories
+Cashier,FoodOrder,"List Orders",GET,/cashier/food-order-bills
+Cashier,Devices,Deposit,POST,/cashier/devices/deposit
+Cashier,FoodOrder,"View Single Order",GET,/cashier/food-order-bills/7
+Cashier,Rooms,"Get list taken rooms",GET,/cashier/rooms/taken
+Cashier,Settings,"Get hotel settings",GET,/cashier/hotel-settings
+Cashier,Foods,"Create Food",POST,/cashier/new-foods
+Cashier,FoodSet,"List of Food Sets group by Categories",GET,/cashier/food-sets
+Cashier,Rooms,"List of rooms by Tag ID",GET,/cashier/rooms/tags/15
+Cashier,,Login,POST,/cashier/login
+Cashier,Devices,Withdraw,POST,/cashier/devices/withdraw
+Cashier,Rooms,"Get list rooms",GET,/cashier/rooms
+Cashier,Foods,"Category Tree by Category ID",GET,/cashier/new-food-categories/0/tree
+Cashier,Devices,"Balance information",GET,/cashier/devices/information
+Cashier,Foods,"Get foods by tag_id",GET,/new-foods/tag/12
+Waiter,Foods,"Get all foods by tags",GET,/waiter/food-tags
+Waiter,Rooms,"List of rooms by Tag ID",GET,/waiter/rooms/tags/15
+Waiter,Foods,"List Food Categories",GET,/waiter/new-food-categories
+Waiter,V2FoodOrder,"View a Order",GET,/v2/waiter/food-orders/83
+Waiter,Users,Logout,POST,/waiter/logout
+Waiter,Users,Logout,POST,/waiter/logout
+Waiter,Rooms,"Get list taken rooms",GET,/waiter/rooms/taken
+Waiter,FoodOrder,"Cancel a order",PUT,/waiter/food-order-bills/22/cancel
+Waiter,Foods,"View Food by ID",GET,/waiter/new-foods/750
+Waiter,Users,"Renew token",POST,/waiter/refresh
+Waiter,FoodSet,"List of Food Sets group by Categories",GET,/waiter/food-sets
+Waiter,Settings,"Get hotel settings",GET,/waiter/hotel-settings
+Waiter,Foods,"List of Foods by Category ID and Subcategories",GET,/waiter/new-foods/category/99/subcategories
+Waiter,Foods,"List of Foods group by Categories",GET,/waiter/new-foods
+Waiter,Rooms,"List of rooms grouped by Tags",GET,/waiter/rooms/tags
+Waiter,FoodSet,"Create FoodSet Order",POST,/waiter/food-order-bills
+Waiter,Foods,"List of Foods in Category Tree",GET,/waiter/new-foods/category/99/tree
+Waiter,V2FoodOrder,"List Orders",GET,/v2/waiter/food-orders
+Waiter,Rooms,"Get list un-taken rooms",GET,/waiter/rooms/untaken
+Waiter,FoodSet,"View Food Set by ID",GET,/waiter/food-sets/6
+Waiter,FoodSet,"List Food Set Categories",GET,/waiter/food-set-categories
+Waiter,Devices,"Balance information",GET,/waiter/devices/information
+Waiter,,Login,POST,/waiter/login
+Waiter,Foods,"List of Foods by Category ID",GET,/waiter/new-foods/category/99
+Waiter,"Taxes, Discounts","List current active taxes",GET,/waiter/taxes
+Waiter,V2FoodOrder,"Update order",PUT,/v2/waiter/food-orders/83
+Waiter,"Taxes, Discounts","List current available discounts",GET,/waiter/discounts
+Waiter,FoodOrder,"View Single Order",GET,/waiter/food-order-bills/22
+Waiter,FoodOrder,"Update Order",POST,/waiter/food-order-bills/59
+Waiter,FoodOrder,"List Orders",GET,/waiter/food-order-bills
+Waiter,Rooms,"Get list rooms",GET,/waiter/rooms
+Waiter,FoodOrder,"Create Order",POST,/waiter/food-order-bills
+Waiter,Foods,"List Food Sub Categories of Category",GET,/waiter/new-food-categories/99/subcategories
+Waiter,,"Create Order",POST,/v2/waiter/food-orders
+Waiter,Foods,"Get foods by tag_id",GET,/new-foods/tag/12
+Waiter,Users,"Renew token",POST,/waiter/refresh
+Waiter,FoodSet,"List of Food Sets by Category ID",GET,/waiter/food-sets/category/2
+Waiter,Foods,"Category Tree by Category ID",GET,/waiter/new-food-categories/0/tree
+Client,Services,"List of Services by Category ID",GET,/services/category/6
+Client,FoodOrder,"Update Order",POST,/food-order-bills/129
+Client,FoodSet,"List of Food Sets by Category ID",GET,/food-sets/category/2
+Client,Users,"Get Basic Information by Email",GET,/users/basic
+Client,Foods,"List of Foods by Category ID and Subcategories",GET,/new-foods/category/99/subcategories
+Client,Places,"Search for Nearby Places",GET,/places/search
+Client,Services,"View Service by ID",GET,/services/200
+Client,FoodOrder,"Create Order",POST,/food-order-bills
+Client,Feedbacks,Answer,POST,/feedback/answer
+Client,Foods,"Category Tree by Category ID",GET,/new-food-categories/0/tree
+Client,Gamification,"Get Gamification Point",GET,/gamification/point
+Client,Foods,"List Food Categories",GET,/new-food-categories
+Client,Foods,"List of Foods in Category Tree",GET,/new-foods/category/99/tree
+Client,Social,"List liked objects",GET,/social/liked
+Client,Users,Logout,POST,/logout
+Client,ServiceOrder,"List Customer Service Orders",GET,/service-orders
+Client,Rooms,"Update Room Preferences",POST,/room-preferences/
+Client,Social,"Enjoy a food",POST,/social/enjoy
+Client,Places,"Add a venue to user's favourite list",POST,/places/fav-list
+Client,Services,"List Service Categories",GET,/service-categories
+Client,FoodSet,"View Food Set by ID",GET,/food-sets/6
+Client,Devices,"Get Room & Hotel Information by uuid",GET,/devices/map
+Client,Hotels,"Get Hotel Informations",GET,/hotels/view
+Client,FoodSet,"List Food Set Categories",GET,/food-set-categories
+Client,ServiceOrder,"Update Service Order",POST,/service-orders/13
+Client,Foods,"List Food Sub Categories of Category",GET,/new-food-categories/99/subcategories
+Client,Users,"Reset Password",POST,/users/reset
+Client,Comments,"Get Comments",GET,/comments
+Client,Services,"List of Services group by Categories",GET,/services/
+Client,Places,"Delete a Place From User's Favourite List",POST,/places/fav-delete
+Client,ServiceOrder,"View Single Service Order",GET,/service-orders/13
+Client,Users,"Resend Confirm email",GET,/users/confirm
+Client,ServiceOrder,"Create Service Order",POST,/service-orders
+Client,Users,"Update Profile",POST,/users/update
+Client,Rooms,"Get Room Preferences",GET,/room-preferences/
+Client,Users,"Get Profile",GET,/users/profile
+Client,FoodOrder,"List Customer Orders",GET,/food-order-bills
+Client,Users,Login,POST,/login
+Client,Places,"Get Favourite Places",GET,/places/fav-list
+Client,Users,"Send Password Reminder Email",POST,/users/reminder
+Client,FoodOrder,"View Single Order",GET,/food-order-bills/22
+Client,Foods,"View Food by ID",GET,/new-foods/750
+Client,Foods,"List of Foods group by Categories",GET,/new-foods
+Client,Search,"Search Click",POST,/search/click
+Client,Users,"Sign Up",POST,/users/signup
+Client,Rooms,"Get list taken rooms",GET,/cashier/rooms/taken
+Client,FoodSet,"List of Food Sets group by Categories",GET,/food-sets
+Client,Search,Search,GET,/search
+Client,Foods,"Get all foods by tags",GET,/food-tags
+Client,Foods,"List of Foods by Category ID",GET,/new-foods/category/99
+Client,Feedbacks,"Get Feedback Question",GET,/feedback/question
+Client,Comments,"Create comment",POST,/comments/create
+Client,Settings,"Get hotel settings",GET,/hotel-settings
+Client,Social,"Like a object",POST,/social/like
+Client,Users,"Confirm email",POST,/users/confirm
+Client,Users,"Renew token",POST,/refresh
