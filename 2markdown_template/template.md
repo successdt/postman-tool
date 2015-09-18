@@ -2,7 +2,7 @@
 $$description
 
 **Url**
-<code>$$method</code>$$url
+**$$method** [$$url](http://$$url)
 
 
 **Parameters**
@@ -12,10 +12,5 @@ $$params
 $$data
 
 
-Response:
-
-```
 $$responses
-
-```
 

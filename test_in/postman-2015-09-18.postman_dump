@@ -1,0 +1,1808 @@
+﻿{
+	"version": 1,
+	"collections": [
+		{
+			"id": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+			"name": "Categories",
+			"description": "",
+			"order": [
+				"c205e498-feb0-ce83-d45b-59ead8f8234c",
+				"720b103b-3aba-1c63-54b2-184b098708b1",
+				"da2ccc00-e405-9045-1a61-035f74145985",
+				"daea39d3-c6e4-dde0-ccf7-d92c914b2bf9",
+				"d9f07633-f7df-9c56-f525-9ee8fb2119e5",
+				"4002526b-bd96-9120-4fe8-ed9d1d71cded",
+				"e9e5523d-448f-a612-5a98-ab0092ecd873",
+				"c82b0607-b814-9240-8a24-5bb4c5593b78"
+			],
+			"folders": [],
+			"timestamp": 1441463086626,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "",
+			"subscribed": false,
+			"remoteLink": "",
+			"public": false,
+			"createdAt": null,
+			"updatedAt": 1441818461851,
+			"write": true,
+			"requests": [
+				{
+					"id": "4002526b-bd96-9120-4fe8-ed9d1d71cded",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{url}}/admin/categories/4",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "PUT",
+					"data": "{\n    \"name_de\": \"Getränke\",\n    \"name_es\": \"Bebidas\",\n    \"lang\": \"es\"\n}",
+					"dataMode": "raw",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551778789,
+					"name": "Update Categorie",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 589,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "374",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 08 Sep 2015 08:16:33 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"categoryId\":4,\"icon\":\"\",\"parentId\":1,\"defaultPrinterType\":null,\"showInCatalog\":1,\"lft\":6,\"rgt\":7,\"depth\":1,\"created_at\":\"2015-09-07 16:51:15\",\"updated_at\":\"2015-09-08 08:15:31\",\"name\":\"Bebidas\",\"description\":\"\",\"lang\":\"es\",\"locale_fallback_used\":null,\"locales\":{\"name_de\":\"Getr\\u00e4nke\",\"description_de\":\"\",\"name_es\":\"Bebidas\",\"description_es\":\"\"}}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "352b9f3f-b5b2-ea4b-6036-5ba9b31610ab",
+							"name": "Update 2 Names",
+							"request": {
+								"name": "Update Categorie",
+								"description": "",
+								"url": "{{url}}/admin/categories/4",
+								"pathVariables": {},
+								"data": "{\n    \"name_de\": \"Getränke\",\n    \"name_es\": \"Bebidas\",\n    \"lang\": \"es\"\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "PUT",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 464,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "275",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 09 Sep 2015 17:01:35 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"categoryId\":4,\"icon\":\"\",\"parentId\":1,\"defaultPrinterType\":null,\"showInCatalog\":1,\"lft\":2,\"rgt\":3,\"depth\":1,\"created_at\":\"2015-09-09 15:21:55\",\"updated_at\":\"2015-09-09 17:01:36\",\"name\":\"Drinks\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "39366d88-502d-df78-eb9e-af5e4f36fd73",
+							"name": "Move in Front of CategoryID",
+							"request": {
+								"name": "Update Categorie",
+								"description": "",
+								"url": "{{url}}/admin/categories/4",
+								"pathVariables": {},
+								"data": "{\n    \"move_to_left_of\" : 2\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "PUT",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 440,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "275",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 09 Sep 2015 17:02:20 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"categoryId\":4,\"icon\":\"\",\"parentId\":1,\"defaultPrinterType\":null,\"showInCatalog\":1,\"lft\":4,\"rgt\":5,\"depth\":1,\"created_at\":\"2015-09-09 15:21:55\",\"updated_at\":\"2015-09-09 17:02:20\",\"name\":\"Drinks\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "f9014a84-6139-70fe-1be3-2ca0f46c9aae",
+							"name": "Move Behind CategoryID",
+							"request": {
+								"name": "Update Categorie",
+								"description": "",
+								"url": "{{url}}/admin/categories/4",
+								"pathVariables": {},
+								"data": "{\n    \"move_to_right_of\" : 2\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "PUT",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						}
+					]
+				},
+				{
+					"id": "720b103b-3aba-1c63-54b2-184b098708b1",
+					"headers": "",
+					"url": "{{url}}/admin/categories/?lang=de",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551664273,
+					"name": "Index Categories in German",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": []
+				},
+				{
+					"id": "c205e498-feb0-ce83-d45b-59ead8f8234c",
+					"headers": "",
+					"url": "{{url}}/admin/categories/",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442550522378,
+					"name": "Index Categories with default language",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": []
+				},
+				{
+					"id": "c82b0607-b814-9240-8a24-5bb4c5593b78",
+					"headers": "",
+					"url": "{{url}}/admin/categories/",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "DELETE",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551709512,
+					"name": "Delete a Category by ID",
+					"description": "Delete {id}\n",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": []
+				},
+				{
+					"id": "d9f07633-f7df-9c56-f525-9ee8fb2119e5",
+					"headers": "",
+					"url": "{{url}}/admin/categories/1/items",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551688984,
+					"name": "Show Categorie by ID with related Items",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": []
+				},
+				{
+					"id": "da2ccc00-e405-9045-1a61-035f74145985",
+					"headers": "",
+					"url": "{{url}}/admin/categories/4",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551674761,
+					"name": "Show Categorie by ID default Language",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": []
+				},
+				{
+					"id": "daea39d3-c6e4-dde0-ccf7-d92c914b2bf9",
+					"headers": "",
+					"url": "{{url}}/admin/categories/4/locales?lang=fr",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551682506,
+					"name": "Show Categorie by ID with Locals",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": []
+				},
+				{
+					"id": "e9e5523d-448f-a612-5a98-ab0092ecd873",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{url}}/admin/categories",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    \"name\": \"new Cat\"\n}",
+					"dataMode": "raw",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551701393,
+					"name": "Create Categorie",
+					"description": "",
+					"collectionId": "4b79a6fd-0379-c1ef-afa6-12aecb179305",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 573,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "293",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 08 Sep 2015 07:58:34 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"categoryId\":76,\"icon\":\"\",\"parentId\":1,\"defaultPrinterType\":null,\"showInCatalog\":1,\"lft\":36,\"rgt\":37,\"depth\":1,\"created_at\":\"2015-09-08 07:58:34\",\"updated_at\":\"2015-09-08 07:58:35\",\"name\":\"frenchtr\\u00e4nkekjk\",\"description\":\"s\",\"lang\":\"fr\",\"locale_fallback_used\":null}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "dcdea884-bd7b-3b36-6955-90d0365a1e83",
+							"name": "Mimimun + Lang Category",
+							"request": {
+								"name": "Create Categorie",
+								"description": "",
+								"url": "{{url}}/admin/categories",
+								"pathVariables": {},
+								"data": "{\n    \"icon\": \"\",\n    \"showInCatalog\": 1,\n    \"name\": \"frenchtränkekjk\",\n    \"description\": \"s\",\n    \"lang\": \"fr\"\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 620,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "410",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 08 Sep 2015 08:18:06 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"categoryId\":77,\"icon\":\"\",\"parentId\":1,\"defaultPrinterType\":null,\"showInCatalog\":1,\"lft\":38,\"rgt\":39,\"depth\":1,\"created_at\":\"2015-09-08 08:18:07\",\"updated_at\":\"2015-09-08 08:18:07\",\"name\":\"Cookies\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null,\"locales\":{\"name_de\":\"Kekse\",\"description_de\":\"\",\"name_es\":\"Galletas\",\"description_es\":\"\",\"name_en\":\"Cookies\",\"description_en\":\"\"}}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "ee891130-c440-d83a-fae9-c19a91338b2d",
+							"name": "Save Multilingual by Name",
+							"request": {
+								"name": "Create Categorie",
+								"description": "",
+								"url": "{{url}}/admin/categories",
+								"pathVariables": {},
+								"data": "{\n    \"name_de\": \"Kekse\",\n    \"name_es\": \"Galletas\",\n    \"name\": \"Cookies\",\n    \"lang\": \"en\"\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 678,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "293",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 08 Sep 2015 07:57:54 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"categoryId\":75,\"icon\":\"\",\"parentId\":1,\"defaultPrinterType\":null,\"showInCatalog\":1,\"lft\":34,\"rgt\":35,\"depth\":1,\"created_at\":\"2015-09-08 07:57:54\",\"updated_at\":\"2015-09-08 07:57:54\",\"name\":\"frenchtr\\u00e4nkekjk\",\"description\":\"s\",\"lang\":\"en\",\"locale_fallback_used\":null}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": false,
+							"runTests": true,
+							"id": "7de778df-0c75-7987-256f-91216c7a2059",
+							"name": "Minimum Input",
+							"request": {
+								"name": "Create Categorie",
+								"description": "",
+								"url": "{{url}}/admin/categories",
+								"pathVariables": {},
+								"data": "{\n    \"name\": \"new Cat\"\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+			"name": "Items",
+			"description": "",
+			"order": [
+				"003c92b6-ce44-6194-9e57-ee3a647b1064",
+				"12c0a030-f9c8-3001-2b26-fb8996bc71fb",
+				"0ed47753-fbbe-4077-8264-70b4c9379ea3",
+				"d542c881-a819-47e7-3d81-c7366e1f0220",
+				"d34b5d0e-0a25-9380-63ca-45602ab4a46e",
+				"033d1dc4-631c-4638-9754-11695ac0834a",
+				"794d3562-dd7b-db89-07cc-5e0e4029e17e",
+				"62121e12-f2b7-5ce7-5808-1cff47ca1cc6",
+				"500a35e2-0921-0101-b6f1-81d4f36c441f",
+				"11576a02-1da1-de58-a1f6-18dfd661aa85",
+				"5ac50f4a-e6c5-0ada-8529-709aa2ce677e"
+			],
+			"folders": [
+				{
+					"id": "dc43fda6-9dec-a930-fe12-4647e268cc05",
+					"name": "Option Sets",
+					"description": "",
+					"write": true,
+					"order": [
+						"d5d3a60a-4f1f-a700-d7c4-7c29cafab594",
+						"4b3e6c4f-38a5-92b2-c411-0da94a8f2734",
+						"d9ad0bf3-d04d-925f-1820-46057ac9cba1",
+						"3a28301f-3752-3e79-fd36-a2631e331897",
+						"7c7adb3e-4ae2-356d-d770-40d28181fd43",
+						"f4de0373-30c8-a6e3-d4f5-ad2f7ec85995",
+						"548df99e-8d26-4f00-18d5-ff42c13068d9",
+						"5b90e30f-c3a2-9a13-9bfc-18ab86641dc1"
+					],
+					"collection": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"owner": 0,
+					"collection_name": "Items",
+					"collection_owner": 0,
+					"collection_id": "8cc421ea-b546-1168-1c8f-643c81a3619d"
+				},
+				{
+					"id": "784f4f32-d495-2bcf-a76e-1151c4de5027",
+					"name": "Option Values",
+					"description": "",
+					"write": true,
+					"order": [
+						"1d077945-01a2-20f9-4171-0da0acc104ad",
+						"035f9d87-9aef-1808-ae10-317c5b2bfc17"
+					],
+					"collection": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"owner": 0,
+					"collection_name": "Items",
+					"collection_owner": 0,
+					"collection_id": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d"
+				}
+			],
+			"timestamp": 1441783387032,
+			"synced": false,
+			"remote_id": 0,
+			"owner": 0,
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"public": false,
+			"createdAt": 1441783387032,
+			"updatedAt": 1442486777507,
+			"write": true,
+			"requests": [
+				{
+					"id": "003c92b6-ce44-6194-9e57-ee3a647b1064",
+					"headers": "",
+					"url": "{{url}}/admin/items",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "GET",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": "",
+					"dataMode": "raw",
+					"name": "Items Index",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1441786095203,
+					"version": 2,
+					"responses": [],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "033d1dc4-631c-4638-9754-11695ac0834a",
+					"headers": "",
+					"url": "{{url}}/admin/items/1/full",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "GET",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": [],
+					"dataMode": "params",
+					"name": "Item by Id with Full Details",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1442331093851,
+					"version": 2,
+					"responses": [],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "035f9d87-9aef-1808-ae10-317c5b2bfc17",
+					"headers": "",
+					"url": "{{url}}/admin/option-values/1/locales",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551821753,
+					"name": "Get OptionValue by ID with Locales",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "0ed47753-fbbe-4077-8264-70b4c9379ea3",
+					"headers": "",
+					"url": "{{url}}/admin/items/1/locales",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1441818597599,
+					"name": "Get Item by Id with Locales",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "11576a02-1da1-de58-a1f6-18dfd661aa85",
+					"headers": "",
+					"url": "{{url}}/admin/items/1/categories/16",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "POST",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": "",
+					"dataMode": "raw",
+					"name": "Attach Category to Item",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1442486651025,
+					"version": 2,
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 306,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "726",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Thu, 17 Sep 2015 10:45:05 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"itemId\":1,\"itemUUID\":\"f606c476-8f78-4c24-aa71-15f9e62272e1\",\"item_type\":\"product\",\"parentId\":null,\"sku\":\"garlicbread\",\"barcode\":null,\"shortcode\":null,\"saleQuantity\":\"1.0000\",\"saleUnit\":\"piece\",\"purchaseQuantity\":\"1.0000\",\"purchaseUnit\":\"piece\",\"deductStockFromItem\":null,\"deductStockAmount\":null,\"defaultPrice\":\"50.0000\",\"defaultPriceIsTaxIncluded\":1,\"defaultCategoryId\":1,\"showInCatalog\":true,\"defaultPrinterType\":null,\"isAlwaysChild\":false,\"isNotForSale\":false,\"isStockItem\":false,\"isRentable\":false,\"image\":\"\",\"created_at\":\"2015-09-17 09:39:32\",\"updated_at\":\"2015-09-17 09:39:32\",\"deleted_at\":null,\"name\":\"Garlic Bread\",\"description\":\"Hot nice Garlic Bread\",\"lang\":\"en\",\"locale_fallback_used\":null}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "2d8c049d-f5fe-2868-105d-8114f31827d2",
+							"name": "With orderInCategory",
+							"request": {
+								"name": "Attach Category to Item",
+								"description": "",
+								"url": "{{url}}/admin/items/1/categories/15",
+								"pathVariables": {},
+								"data": "{\n \"orderInCategory\" : 20\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						}
+					],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "12c0a030-f9c8-3001-2b26-fb8996bc71fb",
+					"headers": "",
+					"url": "{{url}}/admin/items/1",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "GET",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": [],
+					"dataMode": "params",
+					"name": "Get Item by Id",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1441786129646,
+					"version": 2,
+					"responses": [],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "1d077945-01a2-20f9-4171-0da0acc104ad",
+					"headers": "",
+					"url": "{{url}}/admin/option-values/1",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551817923,
+					"name": "Get OptionValue by ID",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "3a28301f-3752-3e79-fd36-a2631e331897",
+					"headers": "",
+					"url": "{{url}}/admin/option-sets/1/locales",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551730352,
+					"name": "Get OptionSet with Locales",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "4b3e6c4f-38a5-92b2-c411-0da94a8f2734",
+					"headers": "",
+					"url": "{{url}}/admin/option-sets/1",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551721552,
+					"name": "Get OptionSet",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "500a35e2-0921-0101-b6f1-81d4f36c441f",
+					"headers": "",
+					"url": "{{url}}/admin/items/40/",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "DELETE",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": "",
+					"dataMode": "raw",
+					"name": "Delete Item",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1442482848559,
+					"version": 2,
+					"responses": [],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "548df99e-8d26-4f00-18d5-ff42c13068d9",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{url}}/admin/option-sets/71",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "DELETE",
+					"data": "",
+					"dataMode": "raw",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551750144,
+					"name": "Delete Optionset",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "5ac50f4a-e6c5-0ada-8529-709aa2ce677e",
+					"headers": "",
+					"url": "{{url}}/admin/items/1/categories/15",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "DELETE",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": [],
+					"dataMode": "params",
+					"name": "Detach Category from Item",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1442486777498,
+					"version": 2,
+					"responses": [],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "5b90e30f-c3a2-9a13-9bfc-18ab86641dc1",
+					"headers": "",
+					"url": "{{url}}/admin/option-sets/1",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "PUT",
+					"data": "",
+					"dataMode": "raw",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551756120,
+					"name": "Update OptionSet",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 404,
+								"name": "Not Found",
+								"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+							},
+							"time": 351,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "36",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Sat, 12 Sep 2015 12:04:32 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":\"Item Not Found\",\"data\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "cb84c5aa-a309-ba3f-6dec-f6a5372386e5",
+							"name": "Update All",
+							"request": {
+								"name": "Update OptionSet",
+								"description": "",
+								"url": "{{url}}/admin/option-sets/1",
+								"pathVariables": {},
+								"data": "{\n\"name\": \"updated name\",\n\"minChoice\" : 1,\n\"maxChoice\" : 2\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "PUT",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 569,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "1305",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Sat, 12 Sep 2015 12:21:04 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"optionSetId\":370,\"minChoice\":1,\"maxChoice\":2,\"created_at\":\"2015-09-12 12:14:26\",\"updated_at\":\"2015-09-12 12:15:57\",\"name\":\"updated name\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null,\"values\":[{\"optionValueId\":760,\"option_item_id\":null,\"optionPrice\":null,\"created_at\":\"2015-09-12 12:14:26\",\"updated_at\":\"2015-09-12 12:14:26\",\"name\":\"Option Value 2 updated\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":\"de\",\"item\":null,\"pivot\":{\"option_set_id\":370,\"option_value_id\":760,\"orderInSet\":10,\"overwriteType\":null,\"priceInSet\":null,\"option_item_id\":null}},{\"optionValueId\":759,\"option_item_id\":null,\"optionPrice\":null,\"created_at\":\"2015-09-12 12:14:26\",\"updated_at\":\"2015-09-12 12:14:26\",\"name\":\"Option Value 1 updated\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null,\"item\":null,\"pivot\":{\"option_set_id\":370,\"option_value_id\":759,\"orderInSet\":20,\"overwriteType\":null,\"priceInSet\":null,\"option_item_id\":null}},{\"optionValueId\":761,\"option_item_id\":null,\"optionPrice\":null,\"created_at\":\"2015-09-12 12:21:04\",\"updated_at\":\"2015-09-12 12:21:04\",\"name\":\"newValue\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null,\"item\":null,\"pivot\":{\"option_set_id\":370,\"option_value_id\":761,\"orderInSet\":30,\"overwriteType\":null,\"priceInSet\":null,\"option_item_id\":null}}]}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "de113685-083e-8da4-b6bc-13bfe858eb3e",
+							"name": "Update existing values and add new ones",
+							"request": {
+								"name": "Update OptionSet",
+								"description": "",
+								"url": "{{url}}/admin/option-sets/370",
+								"pathVariables": {},
+								"data": "{\n\"name\": \"updated name\",\n\"minChoice\" : 1,\n\"maxChoice\" : 2,\n\"values\" : [\n        \n        {\"optionValueId\": 760, \"name_de\" :\"Option Value 2 updated\"},\n        {\"optionValueId\": 759, \"name\" :\"Option Value 1 updated\"},\n        {\"name\":\"newValue\"}\n    ]\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "PUT",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						}
+					]
+				},
+				{
+					"id": "62121e12-f2b7-5ce7-5808-1cff47ca1cc6",
+					"headers": "",
+					"url": "{{url}}/admin/items/4/",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "PUT",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": "",
+					"dataMode": "raw",
+					"name": "Update Item",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1442482828135,
+					"version": 2,
+					"responses": [],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "794d3562-dd7b-db89-07cc-5e0e4029e17e",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{url}}/admin/items",
+					"pathVariables": {},
+					"preRequestScript": "",
+					"method": "POST",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"data": "{\n    \"sku\" : \"abcc\",\n    \"item_type\" : \"Product\",\n    \"defaultCategoryId\" : 1,\n    \"name\" : \"new Name\"\n}",
+					"dataMode": "raw",
+					"name": "Create Item",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1442482425757,
+					"version": 2,
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 422,
+								"name": "Unprocessable Entity",
+								"detail": "The request was well-formed but was unable to be followed due to semantic errors."
+							},
+							"time": 236,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "55",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Thu, 17 Sep 2015 09:33:47 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":[\"The sku has already been taken.\"],\"data\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "9f31d9e7-f70d-f188-3c67-60b51c64a593",
+							"name": "Minimal Entrys",
+							"request": {
+								"name": "Create Item",
+								"description": "",
+								"url": "{{url}}/admin/items",
+								"pathVariables": {},
+								"data": "{\n    \"sku\" : \"abcc\",\n    \"item_type\" : \"Product\",\n    \"defaultCategoryId\" : 1,\n    \"name\" : \"new Name\"\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						}
+					],
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "7c7adb3e-4ae2-356d-d770-40d28181fd43",
+					"headers": "",
+					"url": "{{url}}/admin/option-sets/1?lang=de",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551734249,
+					"name": "Get OptionSet in German",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "d34b5d0e-0a25-9380-63ca-45602ab4a46e",
+					"headers": "",
+					"url": "{{url}}/admin/items/1/categories",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1441818661288,
+					"name": "Get Item by Id with the Categories it belongs to",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "d542c881-a819-47e7-3d81-c7366e1f0220",
+					"headers": "",
+					"url": "{{url}}/admin/items/1/option-sets",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442329721838,
+					"name": "Get Item by Id with OptionSets",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "d5d3a60a-4f1f-a700-d7c4-7c29cafab594",
+					"headers": "",
+					"url": "{{url}}/admin/option-sets",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551716064,
+					"name": "Get OptionSets",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "d9ad0bf3-d04d-925f-1820-46057ac9cba1",
+					"headers": "",
+					"url": "{{url}}/admin/option-sets/1/values",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551726176,
+					"name": "Get OptionSet with Values",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": []
+				},
+				{
+					"id": "f4de0373-30c8-a6e3-d4f5-ad2f7ec85995",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{url}}/admin/option-sets",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n}",
+					"dataMode": "raw",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551742265,
+					"name": "Create Optionset",
+					"description": "",
+					"collectionId": "8cc421ea-b546-1168-1c8f-643c81a3619d",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 404,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "186",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Thu, 10 Sep 2015 11:00:10 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"updated_at\":\"2015-09-10 11:00:10\",\"created_at\":\"2015-09-10 11:00:10\",\"optionSetId\":195,\"name\":\"new set\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "44665fc6-5de5-10bf-85e7-b7dd93cc7c3d",
+							"name": "Create just name",
+							"request": {
+								"name": "Create Optionset",
+								"description": "",
+								"url": "{{url}}/admin/option-sets",
+								"pathVariables": {},
+								"data": "{\n    \"name\": \"new set\"\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 428,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "Keep-Alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "912",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Thu, 10 Sep 2015 12:40:06 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Keep-Alive",
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100",
+									"description": "Custom header"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.6.11",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "PHP/5.6.11",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"error\":false,\"data\":{\"updated_at\":\"2015-09-10 12:40:06\",\"created_at\":\"2015-09-10 12:40:06\",\"optionSetId\":48,\"name\":\"Set with Values\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null,\"values\":[{\"optionValueId\":106,\"option_item_id\":null,\"optionPrice\":null,\"created_at\":\"2015-09-10 12:40:06\",\"updated_at\":\"2015-09-10 12:40:06\",\"name\":\"Option Value 1\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":null,\"item\":null,\"pivot\":{\"option_set_id\":48,\"option_value_id\":106,\"orderInSet\":10,\"overwriteType\":null,\"priceInSet\":null,\"option_item_id\":null}},{\"optionValueId\":107,\"option_item_id\":null,\"optionPrice\":null,\"created_at\":\"2015-09-10 12:40:06\",\"updated_at\":\"2015-09-10 12:40:06\",\"name\":\"Option Value 2\",\"description\":\"\",\"lang\":\"en\",\"locale_fallback_used\":\"de\",\"item\":null,\"pivot\":{\"option_set_id\":48,\"option_value_id\":107,\"orderInSet\":20,\"overwriteType\":null,\"priceInSet\":null,\"option_item_id\":null}}]}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"state": {
+								"size": "normal"
+							},
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"isSample": true,
+							"scrollToResult": true,
+							"runTests": true,
+							"id": "1ce26cd9-2330-5c92-bc6a-0b03c120bec7",
+							"name": "Post with Values",
+							"request": {
+								"name": "Create Optionset",
+								"description": "",
+								"url": "{{url}}/admin/option-sets",
+								"pathVariables": {},
+								"data": "{\n   \"name\" : \"Set with Values\",\n   \n    \"values\" : [\n        {\"name\" :\"Option Value 1\"},\n        {\"name_de\" :\"Option Value 2\"}\n    ]\n}",
+								"headers": "Content-Type: application/json\n",
+								"dataMode": "raw",
+								"method": "POST",
+								"tests": "",
+								"isFromCollection": true,
+								"version": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "bba37430-403f-f509-d18a-08b5756cfecd",
+			"name": "Authentication",
+			"requests": [
+				{
+					"id": "aa638ea3-0aea-d3ca-3fcc-6becf8f514f6",
+					"headers": "Authorization: Basic YWRtaW5AaG90dGFiLm5ldDoxMjM0NTY=\n",
+					"url": "{{url}}/users/login?email=admin@hottab.net&password=123456",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "POST",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1442551657768,
+					"name": "login as admin",
+					"description": "",
+					"collectionId": "bba37430-403f-f509-d18a-08b5756cfecd",
+					"responses": []
+				}
+			],
+			"order": [
+				"aa638ea3-0aea-d3ca-3fcc-6becf8f514f6"
+			],
+			"timestamp": 1441462827045
+		}
+	],
+	"environments": [
+		{
+			"id": "a65cabfe-88e8-7301-d618-adf36b502c3b",
+			"name": "Localhost",
+			"values": [
+				{
+					"key": "url",
+					"value": "hottab.dev",
+					"type": "text",
+					"name": "url",
+					"enabled": true
+				}
+			],
+			"timestamp": 1442550512351,
+			"synced": false
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
